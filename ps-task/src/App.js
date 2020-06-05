@@ -267,7 +267,7 @@ function App() {
           </div>
           <div className={'divider'}></div>
           <LineChart data={graphData}
-          responsive={true}
+            responsive={true}
             xtitle="ID" ytitle="Votes"
             curve={false} />
         </> : (
